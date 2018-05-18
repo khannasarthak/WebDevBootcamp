@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Test</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<div>
+		<label>First Name <input type="text" placeholder="first name" required name="firstname"></label>
+		<label>Last Name <input type="text" placeholder="last name" required name="lastname"></label>
+		</div>
+		<div>
+		<label>Male <input type="radio" name="sex"></label>
+		<label>Female <input type="radio" name="sex"></label>
+		<label>Other <input type="radio" name="sex"></label>
+		</div>
+		<div>
+		<label>Email <input type="email" placeholder="Email" required name="email"></label>
+		<label>Password: <input type="password" name="password" required  minlength="4"  maxlength="10"></label>
+		</div>
+		<div>
+		<label>Birthday: <select name="Month">
+			<option >Jan</option>
+			<option >Jan</option>
+			<option >Jan</option>
+		</select>
+		<select>
+			<option >1</option>
+			<option >2</option>
+			<option >3</option>
+		</select>
+		<select>
+			<option >1994</option>
+			<option >1994</option>
+			<option >1995</option>
+		</select>
+
+	</label>
+
+	</div>
+	<div>
+	<label>I agree to terms <input type="checkbox" name="check"></label>
+	</div>
+	<button>Submit</button>
+	</form>
+
+</body>
+</html>
